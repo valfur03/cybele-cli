@@ -4,7 +4,7 @@ INCL		= includes
 LIBS		= -lcurl
 NAME		= cybele
 CC			= clang
-CFLAGS		= -Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror -g3 -ggdb
 RM			= rm -f
 
 %.o:		%.c
